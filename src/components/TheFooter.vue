@@ -1,14 +1,14 @@
 <template>
     <div>
         <div class="conatiner-fluid bgBottomFooter">
-            <div class="container d-flex justify-content-between">
+            <div class="container d-flex justify-content-between align-items-center py-4">
                 <div>
                     <button type="button" class="myButton">SIGN-UP NOW!</button>
                 </div>
 
-                <div class="d-flex">
+                <div class="d-flex align-items-center">
                     <div>
-                        <h5 class="followColor">FOLLOW US</h5>
+                        <h5 class="followColor mb-0">FOLLOW US</h5>
                     </div>
 
                     <div>
