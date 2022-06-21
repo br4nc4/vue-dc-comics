@@ -1,14 +1,14 @@
 <template>
-    <div class="container-fluid .bg-light">
-        <header class="d-flex justify-content-between">
+    <div>
+        <header class="container d-flex justify-content-between align-items-center">
             <div>
                 <img src="/img/dc-logo.png" alt="">
             </div>
 
             <nav>
                 <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" :href="link.href" v-for="(link, i) in navMenu" :key="i">{{link.name}}</a>
+                    <li class="nav-item" v-for="(link, i) in navMenu" :key="i">
+                        <a class="nav-link" :href="link.href">{{link.name}}</a>
                     </li>
                 </ul>
             </nav>
@@ -17,6 +17,7 @@
 </template>
 
 <script>
+
 export default{
     data(){
         return{
@@ -69,5 +70,6 @@ export default{
 </script>
 
 <style lang="scss">
+
 
 </style>
