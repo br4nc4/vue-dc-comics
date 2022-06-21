@@ -2,7 +2,8 @@
     <div>
         <div class="position-relative">
             <div class="bgFooter">
-                <img src="/img/footer-bg.jpg" alt="">
+                <img class="jumboFooter" src="/img/footer-bg.jpg" alt="">
+                <img src="/img/dc-logo-bg.png" alt="">
             </div>
         </div>
     </div>
@@ -17,10 +18,16 @@
     right: 0;
     }
 
-    .bgFooter img{
+    .jumboFooter{
         width: 100%;
         height: 400px;
         object-fit: cover;
         object-position: top;
+    }
+
+    .bgFooter:last-child img{
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 </style>
