@@ -1,6 +1,7 @@
 <template>
   <div>
     <TheHeader></TheHeader>
+    <TheJumbotronSection/>
     <TheBlackSection/>
     <TheBlueSection/>
     <TheBannerFooter/>
@@ -14,6 +15,7 @@ import TheBlackSection from './components/TheBlackSection.vue'
 import TheBlueSection from './components/TheBlueSection.vue'
 import TheBannerFooter from './components/TheBannerFooter.vue'
 import TheFooter from './components/TheFooter.vue'
+import TheJumbotronSection from './components/TheJumbotronSection.vue'
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     TheBlackSection,
     TheBlueSection,
     TheBannerFooter,
-    TheFooter
+    TheFooter,
+    TheJumbotronSection
 }
 }
 </script>

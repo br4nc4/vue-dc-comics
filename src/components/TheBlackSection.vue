@@ -3,7 +3,7 @@
         <div class="container-fluid bg-dark">
             <div class="container">
                 <div class="pt-4 pb-3">
-                    <div class="row">
+                    <div class="row gy-5">
                         <div class="col-2" v-for="card in cardsComic" :key="card.price">
                             <CardDc
                             :image="card.thumb"

@@ -24,5 +24,6 @@ export default {
     .aspect{
         aspect-ratio: 1/1;
         overflow: hidden;
+        margin-bottom: 1rem;
     }
 </style>
