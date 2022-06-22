@@ -6,7 +6,7 @@
             </div>
 
             <nav>
-                <ul class="nav">
+                <ul class="nav myNav">
                     <li class="nav-item" v-for="(link, i) in navMenu" :key="i">
                         <a class="nav-link" :href="link.href">{{link.name}}</a>
                     </li>
@@ -70,6 +70,17 @@ export default{
 </script>
 
 <style lang="scss">
-
-
+    .myNav{
+            --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    }
 </style>
