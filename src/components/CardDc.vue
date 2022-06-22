@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div class="card">
-            <img class="card-img-top" :src="image" alt="">
-            <div class="card-body">{{series}}</div>
-        </div>
+        <div class="aspect">
+            <img :src="image" alt="">
+        </div> 
+        <div class="text-white text-uppercase">{{series}}</div>
     </div>
 </template>
 
@@ -21,5 +21,8 @@ export default {
 </script>
 
 <style>
-
+    .aspect{
+        aspect-ratio: 1/1;
+        overflow: hidden;
+    }
 </style>
