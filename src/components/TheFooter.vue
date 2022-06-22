@@ -32,7 +32,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .bgBottomFooter{
         background-color:#303030;
     }

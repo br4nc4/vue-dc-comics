@@ -11,6 +11,10 @@
                             </CardDc>
                         </div>
                     </div>
+
+                    <div class="d-flex justify-content-center mt-5">
+                        <button type="button" class="text-white myButton">LOAD MORE</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,6 +109,10 @@ export default {
 }
 </script>
 
-<style>
-    
+<style scoped>
+    .myButton{
+        background-color: #0282f9;
+        border: 0;
+        padding: 0.5rem 3rem;
+    }
 </style>
