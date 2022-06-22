@@ -6,8 +6,8 @@
                     <button type="button" class="myButton">SIGN-UP NOW!</button>
                 </div>
 
-                <div class="d-flex align-items-center">
-                    <div>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="pe-2">
                         <h5 class="followColor mb-0">FOLLOW US</h5>
                     </div>
 
