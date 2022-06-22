@@ -75,7 +75,7 @@ export default{
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;
     --bs-nav-link-color: black;
-    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-hover-color: #269afa;
     --bs-nav-link-disabled-color: #6c757d;
     display: flex;
     flex-wrap: wrap;
