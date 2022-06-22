@@ -2,7 +2,10 @@
     <div>
         <div class="container-fluid bg-dark">
             <div class="container">
-                <div class="pt-4 pb-3">
+                <div class="pt-5 pb-3 position-relative">
+                    <div class="">
+                        <button type="button" class="text-white myButton topButtonContent">CURRENT SERIES</button>
+                    </div>
                     <div class="row gy-5">
                         <div class="col-2" v-for="card in cardsComic" :key="card.price">
                             <CardDc
@@ -114,5 +117,13 @@ export default {
         background-color: #0282f9;
         border: 0;
         padding: 0.5rem 3rem;
+    }
+
+    .myButton.topButtonContent{
+        position: absolute;
+        top: -21px;
+        padding: 0.5rem 1rem;
+        font-size: larger;
+        font-weight: 700;
     }
 </style>
