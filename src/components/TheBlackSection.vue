@@ -10,7 +10,8 @@
                         <div class="col-2" v-for="card in cardsComic" :key="card.price">
                             <CardDc
                             :image="card.thumb"
-                            :series="card.series">
+                            :series="card.series"
+                            :price="card.price">
                             </CardDc>
                         </div>
                     </div>
