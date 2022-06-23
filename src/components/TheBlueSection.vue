@@ -4,15 +4,15 @@
             <div class="container d-flex justify-content-between align-items-center py-5">
                 <div v-for="card in cardsLinks" :key="card">
                     <img class="cardImgOne" :src="card.img" alt="">
-                    <span class="text-white">{{card.link}}</span>
+                    <span class="text-white ps-2">{{card.link}}</span>
                 </div>
                 <div>
                     <img class="cardImgTwo" src="/img/buy-comics-shop-locator.png" alt="">
-                    <span class="text-white">COMIC SHOP LOCATOR</span>
+                    <span class="text-white ps-2">COMIC SHOP LOCATOR</span>
                 </div>
                 <div>
                     <img class="cardImgThree" src="/img/buy-dc-power-visa.png" alt="">
-                    <span class="text-white">DC POWER VISA</span>
+                    <span class="text-white ps-2">DC POWER VISA</span>
                 </div>
             </div>
         </div>
