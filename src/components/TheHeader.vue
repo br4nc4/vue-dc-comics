@@ -93,7 +93,7 @@ export default{
         display: block;
         height: 5px;
         position: absolute;
-        width: 100%;
+        width: calc(100% - 32px);
         margin-bottom: -50px;
     }
 </style>
