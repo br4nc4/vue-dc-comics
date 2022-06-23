@@ -45,5 +45,6 @@ export default {
         bottom: 0;
         background-color: rgba($color: #1d1b1b, $alpha: 0.5);
         opacity: 0;
+        transition: opacity .2s ease-in-out;
     }
 </style>
