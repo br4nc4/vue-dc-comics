@@ -8,7 +8,9 @@
             <nav>
                 <ul class="nav myNav">
                     <li class="nav-item" v-for="(link, i) in navMenu" :key="i">
-                        <a class="nav-link" :href="link.href">{{link.name}}</a>
+                        <a class="nav-link position-relative" :href="link.href">
+                            <h6 class="mb-0 myLink">{{link.name}}</h6>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -75,12 +77,23 @@ export default{
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;
     --bs-nav-link-color: black;
-    --bs-nav-link-hover-color: #269afa;
+    --bs-nav-link-hover-color: #0282F9;
     --bs-nav-link-disabled-color: #6c757d;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    }
+
+    .myLink:hover::after{
+        background-color: #0282F9;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 5px;
+        position: absolute;
+        width: 100%;
+        margin-bottom: -50px;
     }
 </style>
